@@ -6,6 +6,7 @@ myName('Madmax'); // calling a function
 
 console.log("---------------------------------------")
 
+// another way to define function is by using arrows: "=>". 
 const myAnotherName = (name) => { // let and const are two ways to define a variable, "var" is not used from ES6 now
     console.log(name);
 }
