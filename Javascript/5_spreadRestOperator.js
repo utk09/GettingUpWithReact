@@ -22,3 +22,13 @@ const personAge = {
 };
 
 console.log(personAge);
+
+console.log("----------------------------------------")
+console.log("----------------------------------------")
+console.log("----------------------------------------")
+
+const filter = (...args) => {
+    return args.filter(el => el === 1); // checks if "el" is equal to "1" and then prints it as an array.
+}
+
+console.log(filter(1, 2, 3));
