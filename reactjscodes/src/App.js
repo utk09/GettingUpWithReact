@@ -27,7 +27,16 @@ class App extends Component {
     //     </header>
     //   </div>
     // );
-    return React.createElement('div', null, 'h1', "Hi, this is a new return statement - does not work", React.createElement('h1', {className: 'App'}, "Hi, I guess this works now.") );
+    return (
+     <div className='App'>
+       <h1>This is H1</h1>
+       <h3>This is H3</h3>
+     </div> 
+    //  <div>
+    //  <h5>This is another Div</h5>
+    //  </div>
+    );
+    // return React.createElement('div', null, 'h1', "Hi, this is a new return statement - does not work", React.createElement('h1', {className: 'App'}, "Hi, I guess this works now.") );
   }
 }
 
