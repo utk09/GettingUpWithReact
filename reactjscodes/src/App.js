@@ -32,8 +32,9 @@ class App extends Component {
      <div className='App'>
        <h1>This is H1</h1>
        <h3>This is H3</h3>
-       <Person></Person>
-       <Person />
+       <Person name = 'Amar' age = "30"></Person>
+       <Person name = "Akbar" age = "20"/>
+       <Person name = "Anthony" age = "10"></Person>
      </div>
     //  <div>
     //  <h5>This is another Div</h5>
