@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Person from './Person/Person'
 
 class App extends Component {
   render() {
@@ -31,7 +32,9 @@ class App extends Component {
      <div className='App'>
        <h1>This is H1</h1>
        <h3>This is H3</h3>
-     </div> 
+       <Person></Person>
+       <Person />
+     </div>
     //  <div>
     //  <h5>This is another Div</h5>
     //  </div>
